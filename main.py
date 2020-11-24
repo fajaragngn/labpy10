@@ -1,4 +1,7 @@
 from model.core import *
+from model.tambah import *
+from model.ubah import *
+from model.hapus import *
 from view.tampilkan_nilai import *
 
 print("###############################################################")
@@ -29,6 +32,6 @@ while True:
     # Keluar
     elif menu.lower() == 'k':
         break
-    
+
     else:
         print("Upss ada yang salah, silahkan cek kembali.")
