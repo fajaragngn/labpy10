@@ -1,11 +1,11 @@
-from view.input_nilai import *
+from view.input import *
 from model.core import data
 
 def ubah_data():
     nama = input("Masukan nama untuk mengubah data: ")
     if nama in data.keys():
-        print("Mau mengubah apa?")
-        sub_data = input("(Semua), (Nama), (NIM), (Tugas), (UTS), (UAS) : ")
+        print("\nMau mengubah apa?")
+        sub_data = input("(Semua), (NIM), (Tugas), (UTS), (UAS) : ")
         if sub_data.lower() == "semua":
             print("==========================")
             print("Ubah data {}.".format(nama))

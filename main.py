@@ -1,8 +1,8 @@
-from model.core import *
+from model.core import data
 from model.tambah import *
 from model.ubah import *
 from model.hapus import *
-from view.tampilkan_nilai import *
+from view.tampilkan import *
 
 print("###############################################################")
 print("|                     Program Input Nilai                     |")
@@ -28,7 +28,7 @@ while True:
 
     elif menu.lower() == 'h':
         hapus_data()
-    
+
     # Keluar
     elif menu.lower() == 'k':
         break

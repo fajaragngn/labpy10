@@ -35,8 +35,5 @@ def input_nuas():
 # Menghitung nilai akhir
 def nakhir():
     global nilai_akhir
-    a = nilai_tugas * 30 / 100
-    b = nilai_uts * 35 / 100
-    c = nilai_uas * 35 / 100
-    nilai_akhir = a+b+c
+    nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
     return nilai_akhir

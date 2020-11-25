@@ -1,4 +1,4 @@
-from view.input_nilai import *
+from view.input import *
 from model.core import data
 
 # Menambahkan data
