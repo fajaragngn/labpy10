@@ -1,5 +1,4 @@
-from model.core import data
-from controller.input import *
+from controller.core import *
 
 def ubah_data():
     nama = input("Masukan nama untuk mengubah data: ")
@@ -16,13 +15,7 @@ def ubah_data():
             data[nama][4] = int(input("Ubah Nilai UAS: "))
             data[nama][5] = data[nama][2] *30/100 + data[nama][3]*35/100 + data[nama][4] *35/100 
             print("\nBerhasil ubah data!")
-            no = 1
-            for tabel in data.values():
-                print("| {0:2} | {1:14} | {2:9} | {3:5} | {4:5} | {5:5} | {6:5} |".format
-                    (no, tabel[0],
-                    tabel[1], tabel[2],
-                    tabel[3], tabel[4], tabel[5]))
-                no += 1
+
         elif sub_data.lower() == "nim":
             data[nama][1] = input("\nNIM:")
             print('\nData berhasil di ubah!')

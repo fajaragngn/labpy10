@@ -1,4 +1,4 @@
-from model.core import data
+from controller.core import data
 from model.tambah import *
 from model.ubah import *
 from model.hapus import *
@@ -8,6 +8,7 @@ while True:
     print("Sebelum akses program izin dulu sama yang punya :p")
     break
 
+    #Mulai
     print("###############################################################")
     print("|                     Program Input Nilai                     |")
     print("###############################################################")

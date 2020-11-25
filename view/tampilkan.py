@@ -1,4 +1,4 @@
-from model.core import data
+from controller.core import data
 
 # Menampilkan data
 def lihat_data():

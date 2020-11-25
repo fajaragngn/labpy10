@@ -1,5 +1,4 @@
-from model.core import data
-from controller.input import *
+from controller.core import *
 
 # Menambahkan data
 def tambah_data():

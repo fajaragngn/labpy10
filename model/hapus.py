@@ -1,5 +1,4 @@
-from model.core import data
-from controller.input import *
+from controller.core import *
 
 # Menghapus data
 def hapus_data():
