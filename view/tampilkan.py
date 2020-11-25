@@ -2,8 +2,8 @@ from model.core import data
 
 # Menampilkan data
 def lihat_data():
-    print("Data Nilai Mahasiswa:")
-    print("___________________________________________________________________")
+    print("Daftar Nilai Mahasiswa:")
+    print("===================================================================")
     print("| No |      Nama      |    NIM    | Tugas |  UTS  |  UAS  | Akhir |")
     print("===================================================================")
     if data.keys():
@@ -13,6 +13,7 @@ def lihat_data():
                   (no, tabel[0],
                    tabel[1], tabel[2],
                    tabel[3], tabel[4], tabel[5]))
+            print('-------------------------------------------------------------------')
             no += 1
     else:
         print("=========================TIDAK ADA DATA============================")
