@@ -4,7 +4,6 @@ from model.ubah import *
 from model.hapus import *
 from view.tampilkan import *
 
-while True:
     print("Sebelum akses program izin dulu sama yang punya :p")
     break
 
