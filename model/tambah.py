@@ -12,7 +12,7 @@ def tambah_data():
         nilai_uas = input_nuas()
         nilai_akhir = nakhir()
         data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]
-        ulangi = (input('tambah data?(y/t)'))
+        ulangi = (input('tambah data?(y/t) : '))
 
         if ulangi == 't':
             print('\nData berhasil di tambah!')

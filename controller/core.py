@@ -3,7 +3,7 @@ data = {}
 # Menginput data
 
 def input_nama():
-    print("Masukan data mahasiswa")
+    print("\nMasukan data mahasiswa")
     print("...")
     global nama
     nama = input("\nNama: ")
