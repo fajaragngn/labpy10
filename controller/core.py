@@ -1,9 +1,9 @@
+# core
 data = {}
 
 # Menginput data
-
 def input_nama():
-    print("\nMasukan data mahasiswa")
+    print("\nMasukkan data mahasiswa")
     print("...")
     global nama
     nama = input("\nNama: ")
@@ -18,23 +18,23 @@ def input_nim():
 
 def input_ntugas():
     global nilai_tugas
-    nilai_tugas = int(input("Masukan nilai tugas: "))
+    nilai_tugas = int(input("Masukkan nilai tugas: "))
     return nilai_tugas
 
 
 def input_nuts():
     global nilai_uts
-    nilai_uts = int(input("Masukan nilai UTS: "))
+    nilai_uts = int(input("Masukkan nilai UTS: "))
     return nilai_uts
 
 
 def input_nuas():
     global nilai_uas
-    nilai_uas = int(input("Masukan nilai UAS: "))
+    nilai_uas = int(input("Masukkan nilai UAS: "))
     return nilai_uas
 
 
-# Menghitung nilai akhir
+# Nilai akhir
 def nakhir():
     global nilai_akhir
     nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100
