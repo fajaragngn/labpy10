@@ -2,9 +2,9 @@
 
 **Struktur Package & Module**
 
-![package](assets/img/tugas-praktikum/1.png)
-
 Tugas ini sama dengan pertemuan 9, bedanya kita hanya membuat package yang berisi module-module dari setiap fungsi
+
+![package](assets/img/tugas-praktikum/1.png)
 
 * Terdapat 3 package dengan nama Model, View, Controller.
 * Package Model berisi module tambah, ubah, hapus, cari
