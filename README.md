@@ -15,14 +15,10 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 
 **Controller**
 * ``data = {}`` untuk menampung list data yang nanti akan terinput
-* masukan nama, nim, nilai_tugas, nilai_uts, nilai_uas, dan nilai_akhir yang nanti akan di masukkan kedalam ``data={}``
-* Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 
+* menambahkan fungsi yang nanti nya akan di deklarasikan di setiap module nya, ``def input_nama():`` ``def input_nim():`` dan yg lainnya, yang nanti akan di masukkan kedalam ``data={}``
+* Nilai akhir didapat dari ``nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100``
 
 **Model**
-
-**Keluar**
-* ``if menu.lower() == 'k':`` Ambil data 'k' dari ``menu`` 
-* lalu ``break`` untuk menghentikan seluruh proses
 
 **Tambah data**
 * ``elif menu.lower() == 't':`` Ambil data 't' dari ``menu`` 
