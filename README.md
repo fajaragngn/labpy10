@@ -5,7 +5,9 @@
 ![package](assets/img/tugas-praktikum/1.png)
 
 * Terdapat 3 package dengan nama model, view, controller.
-* Package model berisi module tambah, ubah, hapus, cari
+* Package Model berisi module tambah, ubah, hapus, cari
+* Package View berisi module tampilkan
+* Package Controller berisi module core, yang artinya seluruh inti proses melibatkan module core tersebut
 
 **Penjelasan:**
 
