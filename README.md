@@ -1,5 +1,6 @@
 # lab-6
 
+**Struktur Package & Module
 ![package](assets/img/tugas-praktikum/1.png)
 
 **Penjelasan:**
