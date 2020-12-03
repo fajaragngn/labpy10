@@ -19,6 +19,7 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 * Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 
 
 **Model**
+
 **Keluar**
 * ``if menu.lower() == 'k':`` Ambil data 'k' dari ``menu`` 
 * lalu ``break`` untuk menghentikan seluruh proses
@@ -61,6 +62,7 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
 **View**
+
 **Lihat data**
 * ``elif menu.lower() == 'l':`` Kita menggunakan kondisi percabangan if, ambil data dari ``menu`` lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi ``lower()``
 * lalu cetak ``print()``
