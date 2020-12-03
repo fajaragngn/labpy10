@@ -22,14 +22,14 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 **Model**
 
 Tambah data
-* ``elif menu.lower() == 't':`` Ambil data 't' dari ``menu`` 
+* deklarasikan fungsi ``def tambah_data():``
 * ``nama = input("Masukan nama: ")`` lalu tambahkan input nama, nim, nilai tugas, uts, uas
 * ``nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 `` untuk nilai akhir diambil dari perhitungan 3 komponen nilai (nilai_tugas: 30%, nilai_uts: 35%, nilai_uas: 35%)
 * ``data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]`` kita akan masukkan data yang tadi kita input ke dalam `data[nama]'
 * lalu cetak ``print()``
 
 Ubah data
-* ``elif menu.lower() == 'u':`` Ambil data 'u' dari ``menu`` 
+* deklarasikan fungsi ``def ubah_data():``
 * ``nama = input("Masukan nama untuk mengubah data: ")`` kita akan menginput data yang nanti akan di ubah
 * ``if nama in data.keys(): print("Mau mengubah apa?")`` jika 'nama' dari di dalam 'data' maka akan mengembalikan daftar menggunakan fungsi 'keys()' lalu di cetak lah 'print()'
 * ``sub_data = input("(Semua), (Nama), (NIM), (Tugas), (UTS), (UAS) : ")`` membuat menu ubah di dalam ``sub_data``
@@ -44,14 +44,14 @@ Ubah data
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
 Cari data
-* ``elif menu.lower() == 'c':`` Ambil data 'c' dari ``menu`` 
+* deklarasikan fungsi ``def cari_data():``
 * ``nama = input("Masukan nama untuk mencari data: ")`` kita akan menginput data yang nanti akan di cari
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
 * maka cetak ``print("Nama: {0}\nNIM : {1}\nNilai Tugas: {2}\nUTS: {3}\nUAS: {4}\nNilai akhir: {5}"`` untuk menampilkan data yang tersedia
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
 Hapus data
-* ``elif menu.lower() == 'h':`` Ambil data 'h' dari ``menu`` 
+* deklarasikan fungsi ``def hapus_data():``
 * ``nama = input("Masukan nama untuk menghapus data : ")`` kita akan menginput data yang nanti akan di hapus
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
 * ``del data[nama]`` hapus semua 'nama'  yang ada di dalam 'data'
