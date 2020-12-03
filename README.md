@@ -1,6 +1,6 @@
 # lab-6
 
-
+![package](assets/img/tugas-praktikum/tugas-praktikum/1.png)
 
 **Penjelasan:**
 
@@ -73,20 +73,20 @@ Ubah data
 
 Lihat data
 
-![output-praktikum-5](assets/img/tugas-praktikum/tugas-praktikum/l.png)
+![output-praktikum-5](assets/img/tugas-praktikum//l.png)
 
 
 Cari data
 
-![output-praktikum-5](assets/img/tugas-praktikum/tugas-praktikum/c.png)
+![output-praktikum-5](assets/img/tugas-praktikum/c.png)
 
 
 Hapus data
 
-![output-praktikum-5](assets/img/tugas-praktikum/tugas-praktikum/h.png)
+![output-praktikum-5](assets/img/tugas-praktikum/h.png)
 
 
 **Flowchart:**
 
 
-![output-praktikum-5](assets/img/tugas-praktikum/tugas-praktikum/flowchart.png)
+![output-praktikum-5](assets/img/tugas-praktikum/flowchart.png)
