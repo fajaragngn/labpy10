@@ -4,6 +4,9 @@
 
 ![package](assets/img/tugas-praktikum/1.png)
 
+* Terdapat 3 package dengan nama model, view, controller.
+* Package model berisi module tambah, ubah, hapus, cari
+
 **Penjelasan:**
 
 **Header**
