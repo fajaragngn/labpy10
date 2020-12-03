@@ -2,7 +2,7 @@
 
 **Struktur Package & Module**
 
-Tugas ini sama dengan pertemuan 9, bedanya kita hanya membuat package yang berisi module-module dari setiap fungsi
+Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang berisi module-module dari setiap fungsi
 
 ![package](assets/img/tugas-praktikum/1.png)
 
