@@ -9,7 +9,7 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya membuat package yang beris
 * Terdapat 3 package dengan nama Model, View, Controller.
 * Package Model berisi module tambah, ubah, hapus, cari
 * Package View berisi module tampilkan
-* Package Controller berisi module core, yang artinya seluruh inti proses melibatkan module core tersebut
+* Package Controller berisi module core, yang artinya seluruh proses inti melibatkan module core tersebut
 
 **Penjelasan:**
 
