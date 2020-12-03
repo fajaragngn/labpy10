@@ -10,7 +10,7 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 * Package Model berisi module tambah, ubah, hapus, cari
 * Package View berisi module tampilkan
 * Package Controller berisi module core, yang artinya seluruh proses inti melibatkan module core tersebut
-* dan yang terakhir main.py, yang nanti akan di eksekusi
+* dan yang terakhir ada module main.py, yang nanti akan di eksekusi
 
 **Penjelasan:**
 
@@ -21,14 +21,14 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 
 **Model**
 
-**Tambah data**
+Tambah data
 * ``elif menu.lower() == 't':`` Ambil data 't' dari ``menu`` 
 * ``nama = input("Masukan nama: ")`` lalu tambahkan input nama, nim, nilai tugas, uts, uas
 * ``nilai_akhir = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 `` untuk nilai akhir diambil dari perhitungan 3 komponen nilai (nilai_tugas: 30%, nilai_uts: 35%, nilai_uas: 35%)
 * ``data[nama] = [nama, nim, nilai_tugas, nilai_uts, nilai_uas, nilai_akhir]`` kita akan masukkan data yang tadi kita input ke dalam `data[nama]'
 * lalu cetak ``print()``
 
-**Ubah data**
+Ubah data
 * ``elif menu.lower() == 'u':`` Ambil data 'u' dari ``menu`` 
 * ``nama = input("Masukan nama untuk mengubah data: ")`` kita akan menginput data yang nanti akan di ubah
 * ``if nama in data.keys(): print("Mau mengubah apa?")`` jika 'nama' dari di dalam 'data' maka akan mengembalikan daftar menggunakan fungsi 'keys()' lalu di cetak lah 'print()'
@@ -43,14 +43,14 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 * lalu cetak ``print("\nBerhasil ubah data!")``
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika kita salah dalam memasukkan nama untuk mengubah data maka akan muncul 'nama tidak di temukan'
 
-**Cari data**
+Cari data
 * ``elif menu.lower() == 'c':`` Ambil data 'c' dari ``menu`` 
 * ``nama = input("Masukan nama untuk mencari data: ")`` kita akan menginput data yang nanti akan di cari
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
 * maka cetak ``print("Nama: {0}\nNIM : {1}\nNilai Tugas: {2}\nUTS: {3}\nUAS: {4}\nNilai akhir: {5}"`` untuk menampilkan data yang tersedia
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
-**Hapudata**
+Hapus data
 * ``elif menu.lower() == 'h':`` Ambil data 'h' dari ``menu`` 
 * ``nama = input("Masukan nama untuk menghapus data : ")`` kita akan menginput data yang nanti akan di hapus
 * ``if nama in data.keys():`` kita mengambil list 'nama' di dalam 'data' menggunakan pengkondisian
@@ -60,7 +60,7 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 
 **View**
 
-**Lihat data**
+Lihat data
 * ``elif menu.lower() == 'l':`` Kita menggunakan kondisi percabangan if, ambil data dari ``menu`` lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi ``lower()``
 * lalu cetak ``print()``
 
