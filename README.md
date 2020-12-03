@@ -1,6 +1,6 @@
 # lab-6
 
-![package](assets/img/tugas-praktikum/tugas-praktikum/1.png)
+![package](assets/img/tugas-praktikum/1.png)
 
 **Penjelasan:**
 
@@ -63,12 +63,12 @@
 
 Tambah data
 
-![output-praktikum-5](assets/img/tugas-praktikum/tugas-praktikum/t.png)
+![output-praktikum-5](assets/img/tugas-praktikum/t.png)
 
 
 Ubah data
 
-![output-praktikum-5](assets/img/tugas-praktikum-tugas-praktikum/u.png)
+![output-praktikum-5](assets/img/tugas-praktikum/u.png)
 
 
 Lihat data
