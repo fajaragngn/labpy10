@@ -10,6 +10,7 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 * Package Model berisi module tambah, ubah, hapus, cari
 * Package View berisi module tampilkan
 * Package Controller berisi module core, yang artinya seluruh proses inti melibatkan module core tersebut
+* dan yang terakhir main.py, yang nanti akan di eksekusi
 
 **Penjelasan:**
 
