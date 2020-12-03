@@ -13,21 +13,15 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 
 **Penjelasan:**
 
-**Header**
-* ``data={}`` untuk menampung list dengan format dictionary
-* Gunakanlah perulangan ``While`` untuk menampilkan data sebanyak banyaknya
-* ``menu = input("(T)ambah, (U)bah, (H)apus, (L)ihat, (C)ari, (K)eluar: ")`` kita tambahkan input Tambah, Ubah, Hapus, Lihat, Cari, Keluar dalam variabel menu
-* ``else: print("Upss ada yang salah, silahkan cek kembali.")`` jika kita salah dalam input maka akan tercetak 'Upss ada yang salah, silahkan cek kembali.'
+**Controller**
+* ``data = {}`` untuk menampung list data yang nanti akan terinput
 * masukan nama, nim, nilai_tugas, nilai_uts, nilai_uas, dan nilai_akhir yang nanti akan di masukkan kedalam ``data={}``
 * Nilai akhir didapat dari = (nilai_tugas)*30/100 + (nilai_uts)*35/100 + (nilai_uas)*35/100 
 
+**Model**
 **Keluar**
 * ``if menu.lower() == 'k':`` Ambil data 'k' dari ``menu`` 
 * lalu ``break`` untuk menghentikan seluruh proses
-
-**Lihat data**
-* ``elif menu.lower() == 'l':`` Kita menggunakan kondisi percabangan if, ambil data dari ``menu`` lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi ``lower()``
-* lalu cetak ``print()``
 
 **Tambah data**
 * ``elif menu.lower() == 't':`` Ambil data 't' dari ``menu`` 
@@ -66,6 +60,10 @@ Tugas ini sama dengan pertemuan 9, bedanya kita hanya perlu membuat package yang
 * jika sudah maka cetak ``print("sub_data '{}' berhasil dihapus.".format(nama))``
 * ``else: print("'{}' tidak ditemukan.".format(nama))`` jika data yang kita input salah/tidak ditemukan maka akan tercetak 'nama tidak di temukan'
 
+**View**
+**Lihat data**
+* ``elif menu.lower() == 'l':`` Kita menggunakan kondisi percabangan if, ambil data dari ``menu`` lalu kita akan mengubah perintah 'l' yang kita input menjadi huruf kecil dengan fungsi ``lower()``
+* lalu cetak ``print()``
 
 
 **Output:**
